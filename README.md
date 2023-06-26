@@ -3,8 +3,10 @@ Clon de la pagina principal de Netflix, realizado con HTML, CSS y JavaScript par
 
 Tambien utilizamos media querys, para poder hacer un diseño completamente responsivo.
 
-PAGINA PRINCIPAL
+**PAGINA PRINCIPAL** 
+
 ![Pagina de portada](https://github.com/VMErik/netflix_clon/blob/master/assets/img/principal.PNG?raw=true)
 
-CATALOGO DE PELICULAS 
+**CATALOGO DE PELICULAS **
+
 ![Catalogo de Peliculas](https://github.com/VMErik/netflix_clon/blob/master/assets/img/catalogo.PNG?raw=true)
