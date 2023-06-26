@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi plataforma de peliculas</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mediaquerys.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="background--banner">
+        <video muted autoplay loop poster="assets/img/background-image.webp">
+            <source src="assets/video/background-video.mp4" type="video/mp4">
+            <img src="assets/img/background-image.webp" alt="Background image">
+        </video>
+        <section class="banner">
+            <div class="menu">
+                <nav>
+                    <ul class="navigation navigation--left">
+                        <li>
+                            <a href=""><img class="logo" src="assets/img/netflix.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="">Explorar</a>
+                        </li>
+                        <li>
+                            <a href="">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="">Series</a>
+                        </li>
+                        <li>
+                            <a href="">Peliculas</a>
+                        </li>
+                        <li>
+                            <a href="">Novedades</a>
+                        </li>
+                        <li>
+                            <a href="">Mi Lista</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="navigation navigation--right">
+                        <li>
+                            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <li>
+                            <a href="">Niños</a>
+                        </li>
+                        <li>
+                            <a href="">DVD</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-solid fa-bell"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><img class="user" src="assets/img/user.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="actions">
+                <div class="actions--image">
+                    <img src="assets/img/imagotipo-jurassic.webp" alt="">
+                </div>
+                <div class="actions--info">
+
+                    <button> <i class="fa-solid fa-play"></i> Play </button>
+                    <button> <i class="fa-solid fa-circle-info"></i> More info </button>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="catalog">
+        <section class="catalog--movies">
+            <h3>Peliculas Populares</h3>
+            <div class="movies" id="popular">
+
+            </div>
+        </section>
+        <section class="catalog--movies">
+            <h3>Peliculas de Estreno</h3>
+            <div class="movies" id="releases">
+
+            </div>
+        </section>
+        <section class="catalog--movies">
+            <h3>Peliculas mas vistas</h3>
+            <div class="movies" id="moreviews">
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer--container">
+            <ul class="footer--social">
+                <li>
+                    <a href="https://twitter.com/monroyaeu" target="_blank"> <i class="fa-brands fa-square-twitter"></i> </a>
+                </li>
+                <li>
+                    <a href="https://github.com/VMErik" target="_blank"> <i class="fa-brands fa-square-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/erik-uriel-monroy-angeles" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+                </li>
+            </ul>
+            <section class="footer--information">
+                <p>Preguntas frecuentes</p>
+                <p>Preferencias</p>
+                <p>Centro de ayuda</p>
+                <p>Terminos de uso</p>
+                <p>Nuestros planes</p>
+                <p>Programa de referidos</p>
+                <p>Políticas de Privacidad</p>
+                <p>Contáctanos</p>
+            </section>
+            <p class="copyright">VM ERIK @ 2023</p>
+        </section>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
